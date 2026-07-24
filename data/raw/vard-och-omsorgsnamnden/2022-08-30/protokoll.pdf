@@ -30,7 +30,7 @@
 
         function getAntiForgeryHeader() {
             var tokenKey = "__RequestVerificationToken";
-            var antiForgeryToken = "mMRRPj3l-ahN6tTWuDM1z2PwPxZkIdykHGcqJmSyie_WdeBT5i_QcOhB7sBx8_epgo_m9kv6N-scQNzETN5Gahxo11I1";
+            var antiForgeryToken = "aEK51NkuTkFmS6CvqsY0MJeYY95mj_Rl1IW8-lv154WAEfyhYjEHYvBWTW3HEUQcWusOg3fxZFYtICihpXzll-JPvAo1";
             var headers = {};
             headers[tokenKey] = antiForgeryToken;
             return headers;
